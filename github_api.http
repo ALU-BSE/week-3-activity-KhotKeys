@@ -1,0 +1,15 @@
+# 1. Retrieve the public profile details of a GitHub user (octocat)
+GET https://api.github.com/users/octocat
+
+###
+
+# 2. List all public repositories belonging to the user (octocat)
+GET https://api.github.com/users/octocat/repos
+
+###
+
+# 3. Fetch detailed information about a specific repository
+GET https://api.github.com/repos/octocat/Hello-World
+Accept: application/vnd.github.v3+json
+
+###
